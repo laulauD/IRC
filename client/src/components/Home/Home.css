@@ -1,0 +1,73 @@
+.Contain{
+    background: whitesmoke;
+    margin-top: -30px;
+    padding:0px;
+    height: 130%;
+}
+.HomeOuterContainer{
+    margin: auto;
+    width:90%;
+}
+.head-title{
+    text-align: center;
+    font-size:50px;
+    padding: 3.5%;
+    color: rgba(31, 31, 31, 0.815);
+    font-weight: 300;
+}
+.heading{
+    font-weight: 300;
+    text-align:center;
+}
+.text{
+    font-weight: 300;
+    font-size: 16pt;
+}
+.wrapper {
+    margin:0 0 0 8.5rem;
+    display: inline-grid;
+    grid-template-columns: repeat(3, [col-start] 1fr);
+    grid-gap: 15px;
+    width:80%;
+  }
+  .wrapper img{
+    margin-left:4%;
+    border-radius: 1rem;
+    width:90%;
+  }
+  .image{
+      height: 230px;
+  }
+  .choose-room{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 12px rgba(85, 85, 85, 0.226);
+    border-radius: 1rem;
+  }
+.go {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #111110,#363635 );
+    padding: 17px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 47%;
+    box-shadow: inset 0px 0px 20px 10px rgba(233, 191, 3, 0.164);
+    margin-left:25%;
+    margin-bottom: 5%;
+}
+
+h3{
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 19pt;
+    font-weight: 400;
+    padding: 1%;
+}
+ h5{
+    color: rgb(97, 97, 97) !important;
+    font-weight: 300;
+    font-size: 15pt;
+    padding-left: 3%;
+}
